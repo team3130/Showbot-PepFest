@@ -14,9 +14,9 @@ void ExampleCommand::Initialize()
 // Called repeatedly when this Command is scheduled to run
 void ExampleCommand::Execute()
 {
-	double moveSpeed = CommandBase::oi->stickL->GetY();
-	double moveTurn = CommandBase::oi->stickR->GetX();
-	chassis->Drive(moveSpeed, moveTurn);
+	//double moveSpeed = CommandBase::oi->stickL->GetY();
+	//double moveTurn = CommandBase::oi->stickR->GetX();
+	chassis->Drive(CommandBase::oi->stickL->GetY(), CommandBase::oi->stickR->GetX());
 }
 
 // Make this return true when this Command no longer needs to run execute()

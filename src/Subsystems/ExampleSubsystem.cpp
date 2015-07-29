@@ -1,5 +1,6 @@
 #include "ExampleSubsystem.h"
 #include "../RobotMap.h"
+#include "../Commands/ExampleCommand.h"
 
 ExampleSubsystem::ExampleSubsystem() :
 		Subsystem("ExampleSubsystem")

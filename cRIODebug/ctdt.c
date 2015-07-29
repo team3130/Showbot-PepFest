@@ -15,7 +15,7 @@ void _GLOBAL__I_65535_0__windows_rbmj_windows_toolchain_environment_win32_gcc_4_
 
 void _GLOBAL__I_65535_0__Z20FRC_userClassFactoryv();
 
-void _GLOBAL__I_65535_0__ZN11CommandBase16examplesubsystemE();
+void _GLOBAL__I_65535_0__ZN11CommandBase7chassisE();
 
 void _GLOBAL__I_65535_0__ZN11NumberArray19NUMBER_ARRAY_RAW_IDE();
 
@@ -68,7 +68,7 @@ void (*_ctors[])() =
     _GLOBAL__I_65535_0___cxa_get_globals_fast,
     _GLOBAL__I_65535_0__windows_rbmj_windows_toolchain_environment_win32_gcc_4_8_2_libstdc___v3_src_c__98_locale_inst_cc_6FCA3617_0,
     _GLOBAL__I_65535_0__Z20FRC_userClassFactoryv,
-    _GLOBAL__I_65535_0__ZN11CommandBase16examplesubsystemE,
+    _GLOBAL__I_65535_0__ZN11CommandBase7chassisE,
     _GLOBAL__I_65535_0__ZN11NumberArray19NUMBER_ARRAY_RAW_IDE,
     _GLOBAL__I_65535_0__ZN11StringArray19STRING_ARRAY_RAW_IDE,
     _GLOBAL__I_65535_0__ZN12BooleanArray20BOOLEAN_ARRAY_RAW_IDE,
@@ -98,7 +98,7 @@ void _GLOBAL__D_65535_1___cxa_get_globals_fast();
 
 void _GLOBAL__D_65535_1__Z20FRC_userClassFactoryv();
 
-void _GLOBAL__D_65535_1__ZN11CommandBase16examplesubsystemE();
+void _GLOBAL__D_65535_1__ZN11CommandBase7chassisE();
 
 void _GLOBAL__D_65535_1__ZN11NumberArray19NUMBER_ARRAY_RAW_IDE();
 
@@ -145,7 +145,7 @@ void (*_dtors[])() =
     {
     _GLOBAL__D_65535_1___cxa_get_globals_fast,
     _GLOBAL__D_65535_1__Z20FRC_userClassFactoryv,
-    _GLOBAL__D_65535_1__ZN11CommandBase16examplesubsystemE,
+    _GLOBAL__D_65535_1__ZN11CommandBase7chassisE,
     _GLOBAL__D_65535_1__ZN11NumberArray19NUMBER_ARRAY_RAW_IDE,
     _GLOBAL__D_65535_1__ZN11StringArray19STRING_ARRAY_RAW_IDE,
     _GLOBAL__D_65535_1__ZN12BooleanArray20BOOLEAN_ARRAY_RAW_IDE,

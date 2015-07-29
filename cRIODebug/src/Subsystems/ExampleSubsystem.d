@@ -185,7 +185,11 @@ src/Subsystems/ExampleSubsystem.d: ../src/Subsystems/ExampleSubsystem.cpp \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Vision/HSLImage.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Vision/ColorImage.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/WPIErrors.h \
- ../src/Subsystems/../RobotMap.h
+ ../src/Subsystems/../RobotMap.h \
+ ../src/Subsystems/../Commands/ExampleCommand.h \
+ ../src/Subsystems/../Commands/../CommandBase.h \
+ ../src/Subsystems/../Commands/../OI.h \
+ ../src/Subsystems/../Commands/../Subsystems/ExampleSubsystem.h
 
 ../src/Subsystems/ExampleSubsystem.h:
 
@@ -560,3 +564,11 @@ C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../i
 C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/WPIErrors.h:
 
 ../src/Subsystems/../RobotMap.h:
+
+../src/Subsystems/../Commands/ExampleCommand.h:
+
+../src/Subsystems/../Commands/../CommandBase.h:
+
+../src/Subsystems/../Commands/../OI.h:
+
+../src/Subsystems/../Commands/../Subsystems/ExampleSubsystem.h:

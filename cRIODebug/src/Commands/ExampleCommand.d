@@ -11,8 +11,7 @@ src/Commands/ExampleCommand.d: ../src/Commands/ExampleCommand.cpp \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/tables/ITable.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/networktables2/type/ComplexData.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/tables/ITableListener.h \
- ../src/Commands/../Subsystems/ExampleSubsystem.h \
- C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Commands/Subsystem.h \
+ ../src/Commands/../OI.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/WPILib.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Accelerometer.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/AnalogChannel.h \
@@ -69,6 +68,7 @@ src/Commands/ExampleCommand.d: ../src/Commands/ExampleCommand.cpp \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/PIDSource.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/PIDOutput.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Commands/PIDSubsystem.h \
+ C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Commands/Subsystem.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/PIDController.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Controller.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/LiveWindow/LiveWindow.h \
@@ -186,7 +186,7 @@ src/Commands/ExampleCommand.d: ../src/Commands/ExampleCommand.cpp \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Vision/HSLImage.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Vision/ColorImage.h \
  C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/WPIErrors.h \
- ../src/Commands/../OI.h
+ ../src/Commands/../Subsystems/ExampleSubsystem.h
 
 ../src/Commands/ExampleCommand.h:
 
@@ -214,9 +214,7 @@ C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../i
 
 C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/tables/ITableListener.h:
 
-../src/Commands/../Subsystems/ExampleSubsystem.h:
-
-C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Commands/Subsystem.h:
+../src/Commands/../OI.h:
 
 C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/WPILib.h:
 
@@ -329,6 +327,8 @@ C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../i
 C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/PIDOutput.h:
 
 C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Commands/PIDSubsystem.h:
+
+C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/Commands/Subsystem.h:
 
 C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/PIDController.h:
 
@@ -564,4 +564,4 @@ C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../i
 
 C:\Program\ Files\ (x86)\FRC_Toolchain\mingw\powerpc-wrs-vxworks\wind_base\/../include/WPILib/WPIErrors.h:
 
-../src/Commands/../OI.h:
+../src/Commands/../Subsystems/ExampleSubsystem.h:
