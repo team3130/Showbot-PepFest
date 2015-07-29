@@ -10,8 +10,10 @@ private:
 	// It's desirable that everything possible under private except
 	// for methods that implement subsystem capabilities
 public:
+	RobotDrive m_drive;
 	ExampleSubsystem();
 	void InitDefaultCommand();
+	void Drive(double move, double turn, bool squaredInputs = false);
 };
 
 #endif

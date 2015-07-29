@@ -9,6 +9,8 @@ private:
 
 public:
 	OI();
+	Joystick* stickL;
+	Joystick* stickR;
 };
 
 #endif

@@ -3,14 +3,19 @@
 
 ExampleSubsystem::ExampleSubsystem() :
 		Subsystem("ExampleSubsystem")
+		, m_drive(LEFTMOTOR,RIGHTMOTOR)
 {
 
 }
 
 void ExampleSubsystem::InitDefaultCommand()
 {
-	// Set the default command for a subsystem here.
-	//SetDefaultCommand(new MySpecialCommand());
+	SetDefaultCommand(new ExampleCommand());
+}
+
+void ExampleSubsystem::Drive(double move, double turn, bool quad)
+{
+	m_drive.ArcadeDrive(move, turn, quad);
 }
 
 // Put methods for controlling this subsystem
