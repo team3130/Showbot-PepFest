@@ -5,6 +5,7 @@
 #include "Commands/Command.h"
 #include "OI.h"
 #include "WPILib.h"
+#include "RobotMap.h"
 
 #include "Subsystems/ExampleSubsystem.h"
 
@@ -22,6 +23,7 @@ public:
 	// Create a single static instance of all of your subsystems
 	static ExampleSubsystem *chassis;
 	static OI *oi;
+	static Compressor *compressor;
 };
 
 #endif

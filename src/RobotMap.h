@@ -12,12 +12,17 @@
  
 // For example to map the left and right motors, you could define the
 // following variables to use with your drivetrain subsystem.
-const int LEFTMOTOR = 1;
-const int RIGHTMOTOR = 2;
 
-// If you are using multiple modules, make sure to define both the port
-// number and the module. For example you with a rangefinder:
-//const int RANGE_FINDER_PORT = 1;
-//const int RANGE_FINDER_MODULE = 1;
+//Digital Output
+const int FRONTLEFTMOTOR = 1;
+const int BACKLEFTMOTOR = 2;
+const int FRONTRIGHTMOTOR = 3;
+const int BACKRIGHTMOTOR = 4;
+
+//Solenoid
+const int COMPRESSOR_RELAY = 1;
+const int PRESSURE_SWITCH = 3;
+const int FIRE_SOLENOID = 2;
+
 
 #endif
