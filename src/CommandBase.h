@@ -8,6 +8,7 @@
 #include "RobotMap.h"
 
 #include "Subsystems/ExampleSubsystem.h"
+#include "Subsystems/Cannon.h"
 
 /**
  * The base for all commands. All atomic commands should subclass CommandBase.
@@ -22,6 +23,7 @@ public:
 	static void init();
 	// Create a single static instance of all of your subsystems
 	static ExampleSubsystem *chassis;
+	static Cannon *cannon;
 	static OI *oi;
 	static Compressor *compressor;
 };

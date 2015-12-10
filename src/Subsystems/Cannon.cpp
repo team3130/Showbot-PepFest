@@ -1,6 +1,7 @@
 #include "Cannon.h"
 #include "../RobotMap.h"
 #include "../Commands/ExampleCommand.h"
+#include "relay.h"
 
 Cannon::Cannon() :
 		Subsystem("Cannon")
@@ -15,7 +16,11 @@ void Cannon::InitDefaultCommand()
 
 void Cannon::Shoot(bool fire)
 {
-
+	if(fire){
+		FireSolenoid->Set(Relay::kForward);
+	}else{
+		FireSolenoid->Set(Relay::kReverse);
+	}
 }
 
 // Put methods for controlling this subsystem
