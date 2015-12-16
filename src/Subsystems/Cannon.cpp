@@ -1,6 +1,6 @@
 #include "Cannon.h"
 #include "../RobotMap.h"
-#include "../Commands/ExampleCommand.h"
+#include "../Commands/ControlCannon.h"
 #include "relay.h"
 
 Cannon::Cannon() :
@@ -11,7 +11,7 @@ Cannon::Cannon() :
 
 void Cannon::InitDefaultCommand()
 {
-	SetDefaultCommand(new ExampleCommand());
+	SetDefaultCommand(new ControlCannon());
 }
 
 void Cannon::Shoot(bool fire)
