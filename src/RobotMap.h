@@ -20,7 +20,8 @@ const int RIGHTMOTOR = 4;
 //Solenoid
 const int COMPRESSOR_RELAY = 1;
 const int PRESSURE_SWITCH = 3;
-const int FIRE_SOLENOID = 2;
+const int FIRE_LSOLENOID = 2;
+const int FIRE_RSOLENOID = 3;
 
 
 #endif
