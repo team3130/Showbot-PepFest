@@ -6,7 +6,7 @@
 Cannon::Cannon() :
 		Subsystem("Cannon")
 {
-	FireSolenoid = new Solenoid(FIRE_SOLENOID);
+	FireSolenoid = new Relay(FIRE_SOLENOID, Relay::kForwardOnly);
 }
 
 void Cannon::InitDefaultCommand()
@@ -16,7 +16,12 @@ void Cannon::InitDefaultCommand()
 
 void Cannon::Shoot(bool fire)
 {
-	FireSolenoid->Set(fire);
+	if(fire){
+		FireSolenoid->Set(Relay::kOn);
+	}else{
+		FireSolenoid->Set(Relay::kOff);
+	}
+
 }
 
 // Put methods for controlling this subsystem

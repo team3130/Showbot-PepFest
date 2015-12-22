@@ -10,7 +10,7 @@ private:
 	// It's desirable that everything possible under private except
 	// for methods that implement subsystem capabilities
 public:
-	Solenoid* FireSolenoid;
+	Relay* FireSolenoid;
 	Cannon();
 	void InitDefaultCommand();
 	void Shoot(bool fire);
