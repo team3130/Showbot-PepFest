@@ -27,7 +27,7 @@ void CommandBase::init()
 	// line should be repeated for each subsystem in the project.
 	chassis = new ExampleSubsystem();
 	cannon = new Cannon();
-	compressor = new Compressor(PRESSURE_SWITCH, COMPRESSOR_RELAY);
+	compressor = new Compressor(3, PRESSURE_SWITCH, 2, COMPRESSOR_RELAY);
 	oi = new OI();
 	compressor->Start();
 }
