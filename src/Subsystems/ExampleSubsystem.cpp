@@ -4,7 +4,7 @@
 
 ExampleSubsystem::ExampleSubsystem() :
 		Subsystem("ExampleSubsystem")
-		, m_drive(FRONTLEFTMOTOR, BACKLEFTMOTOR, FRONTRIGHTMOTOR, BACKRIGHTMOTOR)
+		, m_drive(LEFTMOTOR, RIGHTMOTOR)
 {
 
 }

@@ -14,10 +14,8 @@
 // following variables to use with your drivetrain subsystem.
 
 //Digital Output
-const int FRONTLEFTMOTOR = 1;
-const int BACKLEFTMOTOR = 2;
-const int FRONTRIGHTMOTOR = 3;
-const int BACKRIGHTMOTOR = 4;
+const int LEFTMOTOR = 1;
+const int RIGHTMOTOR = 4;
 
 //Solenoid
 const int COMPRESSOR_RELAY = 1;
